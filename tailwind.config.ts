@@ -1,12 +1,12 @@
 import { type Config } from "tailwindcss";
-import { fontFamily } from "tailwindcss/defaultTheme";
 
 export default {
   content: ["./src/**/*.tsx"],
   theme: {
     extend: {
       fontFamily: {
-        sans: ["var(--font-sans)", ...fontFamily.sans],
+        cairo: ["Cairo", "sans-serif"],
+        bebas: ["Bebas Neue", "sans-serif"],
       },
     },
   },
